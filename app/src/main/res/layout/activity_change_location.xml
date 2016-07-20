@@ -1,0 +1,86 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/loba_change_location"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="-38dp"
+            android:src="@drawable/lobaheader"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/change_location_header"
+            android:textSize="30dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:layout_marginTop="25dp"
+                android:text="@string/change_location_state_title"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/change_location_state_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:text="@string/change_location_city_title"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/change_location_city_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/change_location_password_title"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/change_location_entered_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"/>
+
+            <Button
+                android:id="@+id/change_location_submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/change_location_submit_title"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

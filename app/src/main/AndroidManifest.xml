@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="lobaspecials.loba" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Utilities.SplashScreen"
+            android:allowEmbedded="@string/title_activity_splash_screen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activities.LobaMainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Activities.Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Activities.Register"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name=".Activities.SingleBarDetailsActivity"
+            android:label="@string/title_activity_single_bar_details" >
+        </activity>
+        <activity
+            android:name=".Activities.AddBarSpecialActivity"
+            android:label="@string/title_activity_add_bar_special" >
+        </activity>
+        <activity
+            android:name=".Activities.AddCityActivity"
+            android:label="@string/title_activity_add_city" >
+        </activity>
+        <activity
+            android:name=".Activities.ForgotLoginActivity"
+            android:label="@string/title_activity_forgot_login" >
+        </activity>
+        <activity
+            android:name=".Activities.ProfileActivity"
+            android:label="@string/title_activity_profile" >
+        </activity>
+        <activity
+            android:name=".Activities.ChangeLocationActivity"
+            android:label="@string/title_activity_change_location" >
+        </activity>
+        <activity
+            android:name=".Activities.AddBarActivity"
+            android:label="@string/title_activity_add_bar" >
+        </activity>
+    </application>
+
+</manifest>

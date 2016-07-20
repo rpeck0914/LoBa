@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@drawable/lobabackground">
+
+    <ImageView
+        android:src="@drawable/lobaheader"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="-38dp"
+        android:layout_marginBottom="-20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_marginTop="-10dp"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/back_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/go_back_title"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/single_bar_text_color"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <TextView
+                    android:id="@+id/add_bar_special"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/add_bar_special_title"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/single_bar_text_color"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/single_bar_details_top_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/specials_title"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="@color/single_bar_text_color"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@android:color/black"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/activity_bar_special_pager_view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>
+</LinearLayout>

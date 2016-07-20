@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/loba_register"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginBottom="-20dp"
+            android:layout_marginTop="-38dp"
+            android:src="@drawable/lobaheader"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/username_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/username_title"/>
+
+            <EditText
+                android:id="@+id/enter_userName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/email_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_title"/>
+
+            <EditText
+                android:id="@+id/enter_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/create_password_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_password_title"/>
+
+            <EditText
+                android:id="@+id/enter_Password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/confirm_password_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/confirm_password_title"/>
+
+            <EditText
+                android:id="@+id/confirm_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:inputType="textPassword"/>
+
+            <TextView
+                android:id="@+id/state_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/state_title"/>
+
+            <Spinner
+                android:id="@+id/enter_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:id="@+id/city_title_register_class"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/city_title"/>
+
+            <Spinner
+                android:id="@+id/enter_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/add_city_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_city_button"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:layout_gravity="center"/>
+
+            <Button
+                android:id="@+id/button_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="@string/register_button"/>
+
+            <FrameLayout
+                android:id="@+id/date_picker_container"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

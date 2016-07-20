@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white_splash_background">#ffffff</color>
+    <color name="color_primary_dark">#000000</color>
+
+    <color name="bar_detail_background">#757575</color>
+    <color name="bar_detail_text_color">#fdbe1f</color>
+
+    <color name="single_bar_text_color">#816725</color>
+    <color name="single_bar_details_background_color">#7efdbe1f</color>
+
+    <color name="profile_background_color">#f6ffc72b</color>
+
+    <color name="bar_name_chalk_text_color">#e1e0e0e0</color>
+
+    <color name="main_menu_spinner_background">#82eae6e0</color>
+
+</resources>

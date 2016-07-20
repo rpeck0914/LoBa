@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Loba</string>
+
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_splash_screen">LoBa</string>
+
+    <string name="date_picker_title">Input Your Birth Date:</string>
+
+    <string name="username_title">Username</string>
+    <string name="email_title">Email</string>
+    <string name="password_title">Password</string>
+    <string name="create_password_title">Create Password</string>
+    <string name="confirm_password_title">Confirm Password</string>
+    <string name="state_title">State</string>
+    <string name="city_title">City</string>
+    <string name="add_city_button">Is Your City Not Listed? Click Here!</string>
+
+    <string name="add_city_activity_main_title">Add City Request</string>
+    <string name="add_city_activity_state_select_title">State</string>
+    <string name="add_city_activity_city_enter_title">City</string>
+    <string name="submit_city_button">Submit City</string>
+
+    <string name="login_button_title">Login</string>
+    <string name="forgot_login_title">Forgot Login?</string>
+    <string name="register_link_title">Register Here</string>
+    <string name="logout_title">Log Out</string>
+
+    <string name="enter_email_title_forgot_login">Email</string>
+    <string name="recover_login_button_title">Recover Login</string>
+
+    <string name="go_back_title">Back</string>
+    <string name="add_bar_special_title">Add Special</string>
+    <string name="specials_title">SPECIALS</string>
+
+    <string name="register_button">Register</string>
+
+    <string name="profile_main_header">User Details</string>
+    <string name="profile_username_title">Username: </string>
+    <string name="profile_email_title">Email: </string>
+    <string name="profile_password_title">Password: </string>
+    <string name="profile_state_title">State: </string>
+    <string name="profile_city_title">City: </string>
+    <string name="profile_asterisk">**********</string>
+    <string name="profile_change_location_title">Change Location</string>
+    <string name="profile_add_city">Add City Request</string>
+    <string name="profile_add_bar">Add Bar Request</string>
+    <string name="profile_contact_us">Contact Us</string>
+
+    <string name="add_special_main_title">Add Your Special</string>
+    <string name="add_special_date_title">Date: </string>
+    <string name="add_special_description_title">Description: </string>
+    <string name="add_special_button_title">Submit Special</string>
+
+    <string name="change_location_header">Change Your Location</string>
+    <string name="change_location_state_title">State: </string>
+    <string name="change_location_city_title">City: </string>
+    <string name="change_location_password_title">Password: </string>
+    <string name="change_location_submit_title">Submit Location Change</string>
+
+    <string name="add_bar_main_header">Add Bar Request</string>
+    <string name="add_bar_name_title">Bar Name: </string>
+    <string name="add_bar_address_title">Bar Address: (Optional)</string>
+    <string name="add_bar_submit_button_title">Submit Bar</string>
+
+    <string name="action_settings">settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_single_bar_details">SingleBarDetailsActivity</string>
+    <string name="title_activity_add_bar_special">AddBarSpecialActivity</string>
+    <string name="title_activity_add_city">AddCityActivity</string>
+    <string name="title_activity_forgot_login">ForgotLoginActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_change_location">ChangeLocationActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_bar">AddBarActivity</string>
+</resources>

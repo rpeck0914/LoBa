@@ -1,0 +1,92 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="lobaspecials.loba.Activities.AddCityActivity">
+
+    <ImageView
+        android:id="@+id/loba_add_city"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginTop="-38dp"
+        android:src="@drawable/lobaheader"/>
+
+    <TextView
+        android:id="@+id/add_city_request_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_city_activity_main_title"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/state_title_add_city_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/add_city_activity_state_select_title"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <Spinner
+            android:id="@+id/state_spinner_add_city_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9">
+
+        </Spinner>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:id="@+id/city_title_add_city_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:text="@string/add_city_activity_city_enter_title"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/city_enter_add_city_activity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight=".9"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/submit_city_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_city_button"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+</LinearLayout>
